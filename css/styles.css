@@ -16,6 +16,7 @@ body {
   font-family: 'Roboto';
   font-weight: 300;
   color: #333;
+  font-size: 16px;
 }
 
 /* Text */
@@ -24,12 +25,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
 h3 {
   border-bottom: 1px solid #ddd;
 }
 
 p {
   margin-top: 0;
+}
+
+a {
+  color: #7ac6d8;
 }
 
 /* Display */
@@ -49,12 +62,16 @@ p {
   align-items: center;
 }
 
+.align-end {
+  align-items: flex-end;
+}
+
 .text-center {
   text-align: center;
 }
 
 .section {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 /* Intrduction */
@@ -64,7 +81,37 @@ p {
   height: 150px;
 }
 
+.intro-row {
+  padding: 5px 0;
+}
+
+.intro-desc {
+  padding-top: 20px;
+}
+
+.intro-desc p {
+  margin-bottom: 0;
+}
+
+/* Experiene and education */
+.xp-row {
+  padding-bottom: 15px;
+}
+
+.xp-title {}
+
+.xp-txt {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.xp-details {
+  font-weight: 100;
+  font-size: 14px;
+}
+
 /* Material Icons*/
 .material-icons.md-18 {
   font-size: 18px;
+  padding-right: 5px;
 }
