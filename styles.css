@@ -1,0 +1,21 @@
+html, body {
+  height: 297mm;
+  width: 210mm;
+}
+
+html {
+  background-color: #f3f3f3;
+  margin: auto;
+}
+
+body {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.container {
+  padding: 20px;
+}
