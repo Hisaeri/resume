@@ -23,10 +23,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-weight: 400;
+  color: #5497a2;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 h1 {
-  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 h2 {
@@ -42,7 +45,8 @@ p {
 }
 
 a {
-  color: #7ac6d8;
+  color: #60abb7;
+  text-decoration: none;
 }
 
 /* Display */
@@ -75,7 +79,7 @@ a {
 }
 
 .section {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 /* Intrduction */
@@ -102,11 +106,17 @@ a {
   padding-bottom: 15px;
 }
 
+.xp-row:last-child {
+  padding-bottom: 0px;
+}
+
 .xp-title {}
 
 .xp-txt {
   font-weight: 100;
   font-size: 14px;
+  padding-left: 5px;
+  border-left: 1px solid #bfdbe0;
 }
 
 .xp-details {
@@ -115,6 +125,10 @@ a {
 }
 
 /* Material Icons*/
+.material-icons {
+  color: #666;
+}
+
 .material-icons.md-18 {
   font-size: 18px;
   padding-right: 5px;
