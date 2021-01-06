@@ -51,7 +51,7 @@ a {
 
 /* Display */
 .custom-container {
-  padding: 20px 40px;
+  padding: 20px 40px 0px 40px;
 }
 
 .flex {
