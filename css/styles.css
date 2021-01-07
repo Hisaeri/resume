@@ -129,8 +129,12 @@ a {
   padding-bottom: 3px;
 }
 
-.skills-img_large {
+.skills-img_l {
   max-height: 30px;
+}
+
+.skills-img_xl {
+  max-height: 35px;
 }
 
 /* Experiene and education */
