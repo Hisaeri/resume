@@ -108,11 +108,12 @@ a {
 .flag {
   width: 18px;
   box-shadow: 0px 1px 3px #ddd;
+  margin-right: 3px;
 }
 
 /* Skills */
 .skills-row {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-size: 14px;
 }
 
@@ -120,15 +121,17 @@ a {
   padding-bottom: 0;
 }
 
-.skills-img {
-  max-height: 20px;
-  padding-bottom: 2px;
+.skills-lang {
+  padding-bottom: 10px;
 }
 
-.skills-c {
-  filter: drop-shadow(2px 2px 1px #ccc);
-  font-weight: 400;
-  color: #999;
+.skills-img {
+  max-height: 20px;
+  padding-bottom: 3px;
+}
+
+.skills-img_large {
+  max-height: 30px;
 }
 
 /* Experiene and education */
