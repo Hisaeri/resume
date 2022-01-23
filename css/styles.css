@@ -64,8 +64,9 @@ p {
 }
 
 a {
-  color: #60abb7;
-  text-decoration: none;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
 }
 
 li::marker,
