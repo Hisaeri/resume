@@ -24,6 +24,10 @@ body {
   padding: 20px 40px;
 }
 
+.right {
+  margin-top: 12px;
+}
+
 h1,
 h2,
 h3 {
@@ -161,8 +165,8 @@ ul {
   margin: 25px 0;
 }
 
-.xp-row:last-child {
-  padding-bottom: 0px;
+.xp-row:first-of-type {
+  margin-top: 0;
 }
 
 .xp-txt {
