@@ -1,5 +1,6 @@
 /* Main */
-html, body {
+html,
+body {
   height: 297mm;
   width: 210mm;
 }
@@ -12,14 +13,19 @@ html {
 body {
   background-color: #fff;
   margin: 0;
-  font-family: 'Roboto';
+  font-family: "Oxygen", sans-serif;
   font-weight: 300;
   color: #333;
   font-size: 16px;
 }
 
 /* Text */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   font-weight: 400;
   color: #5497a2;
@@ -150,7 +156,8 @@ a {
   padding-bottom: 0px;
 }
 
-.xp-title {}
+.xp-title {
+}
 
 .xp-txt {
   font-weight: 100;
