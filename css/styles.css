@@ -1,5 +1,6 @@
 /* Main */
-html, body {
+html,
+body {
   height: 297mm;
   width: 210mm;
 }
@@ -12,19 +13,54 @@ html {
 body {
   background-color: #fff;
   margin: 0;
-  font-family: 'Roboto';
+  font-family: "Oxygen", sans-serif;
   font-weight: 300;
   color: #333;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-/* Text */
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+.row {
+  margin: 0;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.left,
+.right {
+  padding: 20px 40px;
+}
+
+.right {
+  padding-top: 32px;
+}
+
+.left {
+  background-color: #f9f9f9;
+}
+
+h1,
+h2,
+h3 {
+  color: #165872;
   font-weight: 400;
-  color: #5497a2;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  color: #165872;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 0;
 }
 
 h1 {
@@ -35,23 +71,27 @@ h2 {
   margin-bottom: 5px;
 }
 
-h3 {
-  border-bottom: 1px solid #ddd;
-}
-
 p {
   margin-top: 0;
 }
 
 a {
-  color: #60abb7;
-  text-decoration: none;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+li::marker,
+.bullet {
+  color: #ccc;
+}
+
+ul {
+  margin-top: 0px;
+  padding: 0px 15px;
 }
 
 /* Display */
-.custom-container {
-  padding: 20px 40px 0px 40px;
-}
 
 .flex {
   display: flex;
@@ -86,7 +126,11 @@ a {
 }
 
 .section {
-  padding: 5px 0;
+  margin-bottom: 40px;
+}
+
+.section:last-child {
+  margin-bottom: 0px;
 }
 
 /* Intrduction */
@@ -98,14 +142,6 @@ a {
 
 .intro-row {
   padding: 5px 0;
-}
-
-.intro-desc {
-  padding-top: 20px;
-}
-
-.intro-desc p {
-  margin-bottom: 0;
 }
 
 .flag {
@@ -143,38 +179,23 @@ a {
 
 /* Experiene and education */
 .xp-row {
-  padding-bottom: 15px;
+  margin: 25px 0;
 }
 
-.xp-row:last-child {
-  padding-bottom: 0px;
+.xp-row:first-of-type {
+  margin-top: 0;
 }
-
-.xp-title {}
 
 .xp-txt {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
-  padding-left: 6px;
-  border-left: 1px solid #bfdbe0;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border-left: 1px solid #ccc;
 }
 
 .xp-details {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
-}
-
-/* Hobbies */
-.hobbies-icon {
-  padding-bottom: 5px;
-}
-
-/* Material Icons*/
-.material-icons {
-  color: #666;
-}
-
-.material-icons.md-18 {
-  font-size: 18px;
-  padding-right: 5px;
+  margin-bottom: 0px;
 }
