@@ -64,7 +64,8 @@ li::marker {
 }
 
 ul {
-  padding: 5px 15px;
+  margin-top: 0px;
+  padding: 0px 15px;
 }
 
 /* Display */
