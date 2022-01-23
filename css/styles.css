@@ -19,13 +19,21 @@ body {
   font-size: 14px;
 }
 
+.full-height {
+  height: 100%;
+}
+
 .left,
 .right {
   padding: 20px 40px;
 }
 
 .right {
-  margin-top: 12px;
+  padding-top: 32x;
+}
+
+.left {
+  background-color: #f9f9f9;
 }
 
 h1,
@@ -114,7 +122,11 @@ ul {
 }
 
 .section {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.section:last-child {
+  margin-bottom: 0px;
 }
 
 /* Intrduction */
