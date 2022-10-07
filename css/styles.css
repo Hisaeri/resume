@@ -33,11 +33,7 @@ body {
 
 .left,
 .right {
-  padding: 20px 40px;
-}
-
-.right {
-  padding-top: 32px;
+  padding: 25px 30px;
 }
 
 .left {
@@ -162,10 +158,6 @@ ul {
   padding-bottom: 0;
 }
 
-.skills-lang {
-  padding-bottom: 10px;
-}
-
 .skills-img {
   max-height: 20px;
   padding-bottom: 3px;
@@ -181,7 +173,7 @@ ul {
 
 /* Experiene and education */
 .xp-row {
-  margin: 25px 0;
+  margin: 25px 0 0 0;
 }
 
 .xp-row:first-of-type {
@@ -191,7 +183,7 @@ ul {
 .xp-txt {
   font-weight: 300;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 8px;
   color: #666;
 }
 
